@@ -9,3 +9,4 @@ todo: get number by their letter value instead of position<br>
       move things from test file to main file<br>
       provide executable<br>
       make it loopable, so the program doesnt close after first use<br>
+      separation.java file is useless until proper packaging<br>
