@@ -6,6 +6,6 @@ currently in primitive state, only works when string is placed into a variable i
 
 todo: get number by their letter value instead of position<br>
       make a scanner to capture user input<br>
-      move things fromm test file to main file<br>
+      move things from test file to main file<br>
       provide executable<br>
       make it loopable, so tne program doesnt close after first use<br>
