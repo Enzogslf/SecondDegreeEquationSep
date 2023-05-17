@@ -8,4 +8,4 @@ todo: get number by their letter value instead of position<br>
       make a scanner to capture user input<br>
       move things from test file to main file<br>
       provide executable<br>
-      make it loopable, so tne program doesnt close after first use<br>
+      make it loopable, so the program doesnt close after first use<br>
