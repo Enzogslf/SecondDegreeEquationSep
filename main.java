@@ -21,7 +21,7 @@ x^2, x, NUM)
 
 import java.util.Scanner;
 
-public class main{
+public class main extends checker{
     public static void main(String[] args) {
     //    String equation = 1x^2+2x-3=0;
     //     int a = equation.indexOf(1);
@@ -29,15 +29,22 @@ public class main{
     //     System.out.println(a);
     //     System.out.println(ab);
     //     int c;
-
-    Scanner eqinput = new Scanner(System.in);
-    String test = eqinput.nextLine();
-    test.toString();
     
-    String input = test; //redundant but still used
-    System.out.println(input);
+
+    try (Scanner eqinput = new Scanner(System.in)) {
+        String test = eqinput.nextLine();
+        // test.();
+        
+        checker f1 = new checker();
+        f1.input = test;
+        f1.checksMinus();
+        f1.checksPlus();
+        f1.xChecker();
+        System.out.println(test.getClass());
     }
 
-
+    
+    
+    }
 }
 
