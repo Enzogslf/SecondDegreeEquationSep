@@ -15,6 +15,8 @@ x^2, x, NUM)
  * learn modifying strings and outputs in java
  * 
  * plan: get indexOf of the equation, use substring to extract the part we want
+ * DONE THAT IN test.java!
+ * LOOKING FOR EXPANDING THAT SOLUTION
  */
 
 import java.util.Scanner;
@@ -32,8 +34,10 @@ public class main{
     String test = eqinput.nextLine();
     test.toString();
     
-    String input = test;
+    String input = test; //redundant but still used
+    System.out.println(input);
     }
+
 
 }
 
