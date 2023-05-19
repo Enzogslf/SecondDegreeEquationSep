@@ -7,7 +7,7 @@
 
 
 public class checker {
-	public StringBuffer inputBuffer = new StringBuffer("");
+	public StringBuffer inputBuffer = new StringBuffer("1x2+4ax-");
 	public String input = inputBuffer.toString();
 	// ints plus and minus return the value of the empty StringBuffer, not scanner input
 	// however method Xchecker returns the scanner input, how??
