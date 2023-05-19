@@ -1,4 +1,8 @@
 public class test {
+
+	// ideas and what this does(even if obvious)
+	// use if statements to check if a number has a letter next to it, etc
+	// this gets parts of the string after and before a plus or minus
 	public static void main(String[] args){
 		
 	String test = "1x^2+5a";
