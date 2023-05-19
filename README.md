@@ -4,6 +4,8 @@ a program that separates second degree equations into a,b and c(X^2,X and number
 
 currently in primitive state, problem: int's plus and minus(indexOf checkers) return the value of the empty StringBuffer, not scanner input however method Xchecker returns the scanner input, how? No idea as of recent, if the string is hardcoded onto the StringBuffer it works as "intended", not near to finished yet, but provides expected output <br>
 
+comments are now more readable if you have the better comments extension :)
+
 todo: get number by their letter value instead of position<br>
       make a scanner to capture user input: DONE but buggy<br>
       move things from test file to main file: main file now extends checker.java,which is test.java renamed<br>
