@@ -2,7 +2,7 @@
 a program that separates second degree equations into a,b and c(X^2,X and number), writen in java<br>
 <br>
 
-currently in primitive state, problem: int's plus and minus(indexOf checkers) return the value of the empty StringBuffer, not scanner input however method Xchecker returns the scanner input, how? No idea as of recent, if the string is hardcoded onto the StringBuffer it works as "intended", not near to finished yet, but provides expected output <br>
+currently in primitive state, problem: int's plus and minus(indexOf checkers) return the value of the empty StringBuffer, not scanner input however method Xchecker returns the scanner input, how? No idea as of recent, if the string is hardcoded onto the StringBuffer it works as "intended", not near to finished yet, but provides expected output SOLVED: variables where instanciated before scanner inputs<br>
 
 comments are now more readable if you have the better comments extension :)
 

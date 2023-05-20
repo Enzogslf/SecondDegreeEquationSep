@@ -9,16 +9,17 @@
 	// todo: use if statements to check if a number has a letter next to it, etc: isDigit() charAt(int index) isLetter(boolean)
 
 public class checker {
-	public StringBuffer inputBuffer = new StringBuffer("1x2+4ax-");
+	public StringBuffer inputBuffer = new StringBuffer("");
 	public String input = inputBuffer.toString();
 	// ?ints plus and minus return the value of the empty StringBuffer, not scanner input
 	// ?however method Xchecker returns the scanner input, how??
-	int plus = input.indexOf("+");
-	int minus = input.indexOf("-");
+	// * SOLVED: since plus and minus where the first thing in the file they were instanciatec before the scanner
+	
 
 public void checksPlus() {
 	//* the issue above is probably why beforeplus(commented below) results in a exception
 	//* String beforeplus = input.substring(0, plus);
+	int plus = input.indexOf("+");
 	System.out.println(plus);
 	 String afterplus = input.substring(plus+1);
 	if(plus != -1 )
@@ -28,6 +29,7 @@ public void checksPlus() {
 }
 
 	public void checksMinus() {
+		int minus = input.indexOf("-");
 		String afterminus = input.substring(minus+1);
 		if(minus != -1)
 		System.out.println(afterminus);
@@ -39,12 +41,11 @@ public void checksPlus() {
 
 
 	public void xChecker(){
-		System.out.println(minus);
 		boolean x = input.contains("x");
 		if (x = true) {
 			 int locationOfX = input.indexOf("x");
 			
-			 while (locationOfX >= 0) {
+			 while (locationOfX >= 0){
 				 System.out.println(locationOfX);
 				 locationOfX = input.indexOf("x", locationOfX + 1);
 			 }				
