@@ -2,7 +2,9 @@
 a program that separates second degree equations into a,b and c(X^2,X and number), writen in java<br>
 <br>
 
-currently in primitive state<br>
+currently broken<br>
+
+ill take a break from this project for now, im annoyed at the new allindexof method<br>
 
 comments are now more readable if you have the better comments extension :)
 
