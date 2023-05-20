@@ -1,3 +1,4 @@
+
 /**?!
  * *chalange: separate second degree equations into 3 parts(a,b and c, for x^2, x, NUM)
  * 
@@ -20,30 +21,30 @@
 
 import java.util.Scanner;
 
-public class main extends checker{
+public class main extends checker {
     public static void main(String[] args) {
         // !depracateded comments/code/notes:
-    //    String equation = 1x^2+2x-3=0;
-    //     int a = equation.indexOf(1);
-    //     boolean ab = equation.contains("x^2");
-    //     System.out.println(a);
-    //     System.out.println(ab);
-    //     int c;
-    
-        //? gets input and calls checker class and methods, sry if too obvious
-    try (Scanner eqinput = new Scanner(System.in)) {
-        String test = eqinput.nextLine();
-        
-        checker f1 = new checker();
-        f1.input = test;
-        f1.checksMinus();
-        f1.checksPlus();
-        f1.xChecker();
-        System.out.println(test.getClass());
-    }
+        // String equation = 1x^2+2x-3=0;
+        // int a = equation.indexOf(1);
+        // boolean ab = equation.contains("x^2");
+        // System.out.println(a);
+        // System.out.println(ab);
+        // int c;
 
-    
-    
+        // ? gets input and calls checker class and methods, sry if too obvious
+        try (Scanner eqinput = new Scanner(System.in)) {
+            String test = eqinput.nextLine();
+
+            checker f1 = new checker();
+            f1.input = test;
+            // f1.indexOfMinus = f1.allIndexOf("-");
+            // f1.checksMinus()
+            f1.allIndexOf("+");
+            f1.getNumber();
+            // f1.checksPlus();
+            // f1.xChecker();
+            System.out.println("");
+        }
+
     }
 }
-
