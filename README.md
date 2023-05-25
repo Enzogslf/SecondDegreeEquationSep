@@ -1,14 +1,12 @@
 # Second degree separator experimental
 
-**Welcome to the experimental branch!**<br>
-<br>
+**Welcome to the experimenwal branch!**
 
-## *whats the objective of this branch?*<br>
+## *whats the objective of this branch?*
 
-- rewrite everything in Golang<br>
-<br>
+- rewrite everything in Golang 
 
 ## *why rewrite it?*
 
-Java has jut been a pain in the ass recently<br>
-  and i fell like Go will serve me well!<br>
+Java has jut been a pain in the ass recently \
+  and i fell like Go will serve me well!
