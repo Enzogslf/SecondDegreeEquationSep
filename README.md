@@ -1,6 +1,6 @@
 # Second degree separator experimental
 
-**Welcome to the experimenwal branch!**
+**Welcome to the experimental branch!**
 
 ## *whats the objective of this branch?*
 
