@@ -23,7 +23,7 @@ func main() {
 	indexOf("x")
 }
 
-//*currently not working but im taking a short break so i want to commit the changes
+//currently not working but im taking a short break so i want to commit the changes
 
 func allIndexOf(str string) int {
 	sum := input()
