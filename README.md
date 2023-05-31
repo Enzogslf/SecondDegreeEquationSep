@@ -2,7 +2,7 @@
 a program that separates second degree equations into a,b and c(X^2,X and number), writen in java<br>
 <br>
 
-# New Stuff In Experimental Branch!!
+
 
 currently broken<br>
 
@@ -16,3 +16,5 @@ todo: get number by their letter value instead of position: letter value is posi
       provide executable: long time until i get to do this lol<br>
       make it loopable, so the program doesnt close after first use: this will be easy, hopefully<br>
       separation.java file is useless until proper packaging<br>
+# New Stuff In Experimental Branch!!
+## fixes, progress, new language, etc!
