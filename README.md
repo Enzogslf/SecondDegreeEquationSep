@@ -2,6 +2,8 @@
 a program that separates second degree equations into a,b and c(X^2,X and number), writen in java<br>
 <br>
 
+# New Stuff In Experimental Branch!!
+
 currently broken<br>
 
 ill take a break from this project for now, im annoyed at the new allindexof method<br>
