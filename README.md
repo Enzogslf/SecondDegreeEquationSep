@@ -8,5 +8,5 @@
 
 ## *why rewrite it?*
 
-Java has jut been a pain in the ass recently \
-  and i fell like Go will serve me well!
+Java has just been a pain in the ass recently \
+  and i feel like Go will serve me well!
