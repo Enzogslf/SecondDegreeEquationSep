@@ -2,7 +2,7 @@
 a program that separates second degree equations into a,b and c(X^2,X and number), writen in java<br>
 <br>
 
-
+# Stupid past enzo trying to solve equations without understanding how they work first... anyways ill be back when i actually understand the math, not just throw string manipulation at it, ignore everything down there
 
 currently broken<br>
 
